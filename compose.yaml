@@ -1,7 +1,3 @@
-services:
-  secuencial:
-      build: .
-          command: ["python", "-u", "main.py"]
+services: {"secuencial": {"build": ".", "command": ["python", "-u", "main.py"]}}
 
 
-          
